@@ -1,0 +1,15 @@
+<h1>Tabel 2</h1>
+Capitalele unor tari
+<hr>
+<table>
+    <tr>
+        <th *ngFor = "let column of headears1">
+            {{column}}
+        </th>
+    </tr>
+    <tr *ngFor = "let item of data1">
+        <td>{{item.Country}}</td>
+        <td>{{item.Capital}}</td>
+    </tr>
+    <button>Click</button>
+</table>

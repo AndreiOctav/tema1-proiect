@@ -1,0 +1,15 @@
+<h1>Tabel 7</h1>
+ Viteza de internet in diferite tari
+<hr>
+<table>
+    <tr>
+        <th *ngFor = "let column of headears6">
+            {{column}}
+        </th>
+    </tr>
+    <tr *ngFor = "let item of data6">
+        <td>{{item.Country}}</td>
+        <td>{{item.Internet_speed}}</td>
+    </tr>
+    <button>Click</button>
+</table>

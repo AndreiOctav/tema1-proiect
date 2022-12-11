@@ -1,0 +1,15 @@
+<h1>Tabel 8</h1>
+Media de admitere
+<hr>
+<table>
+    <tr>
+        <th *ngFor = "let column of headears7">
+            {{column}}
+        </th>
+    </tr>
+    <tr *ngFor = "let item of data7">
+        <td>{{item.Student}}</td>
+        <td>{{item.Media_de_admitere}}</td>
+    </tr>
+    <button>Click</button>
+</table>

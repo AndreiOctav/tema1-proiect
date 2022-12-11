@@ -1,0 +1,15 @@
+<h1>Tabel 4</h1>
+Pretul a diferite produse
+<hr>
+<table>
+    <tr>
+        <th *ngFor = "let column of headears3">
+            {{column}}
+        </th>
+    </tr>
+    <tr *ngFor = "let item of data3">
+        <td>{{item.Product}}</td>
+        <td>{{item.Price}}</td>
+    </tr>
+    <button>Click</button>
+</table>

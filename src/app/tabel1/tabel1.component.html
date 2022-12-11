@@ -1,0 +1,19 @@
+<h1>Tabel 1</h1>
+Date ale studentilor
+<hr>
+<table>
+    <tr>
+        <th *ngFor = "let column of headears">
+            {{column}}
+        </th>
+    </tr>
+    <tr *ngFor = "let item of data">
+        <td>{{item.ID}}</td>
+        <td>{{item.Name}}</td>
+        <td>{{item.Age}}</td>
+        <td>{{item.Gender}}</td>
+    </tr>
+    <button>
+        Click
+    </button>
+</table>

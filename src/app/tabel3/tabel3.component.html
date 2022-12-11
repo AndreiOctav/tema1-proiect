@@ -1,0 +1,15 @@
+<h1>Tabel 3</h1>
+Materii absolvite
+<hr>
+<table>
+    <tr>
+        <th *ngFor = "let column of headears2">
+            {{column}}
+        </th>
+    </tr>
+    <tr *ngFor = "let item of data2">
+        <td>{{item.Subject}}</td>
+        <td>{{item.Passing}}</td>
+    </tr>
+    <button>Click</button>
+</table>

@@ -1,0 +1,16 @@
+<h1>Tabel 5</h1>
+Distante intre diferite orase din Romania
+<hr>
+<table>
+    <tr>
+        <th *ngFor = "let column of headears4">
+            {{column}}
+        </th>
+    </tr>
+    <tr *ngFor = "let item of data4">
+        <td>{{item.City_1}}</td>
+        <td>{{item.City_2}}</td>
+        <td>{{item.Distance}}</td>
+    </tr>
+    <button>Click</button>
+</table>

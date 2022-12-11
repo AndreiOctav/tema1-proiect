@@ -1,0 +1,15 @@
+<h1>Tabel 6</h1>
+Numar de cazuri Covid in Romania
+<hr>
+<table>
+    <tr>
+        <th *ngFor = "let column of headears5">
+            {{column}}
+        </th>
+    </tr>
+    <tr *ngFor = "let item of data5">
+        <td>{{item.Judet}}</td>
+        <td>{{item.Numar_de_cazuri}}</td>
+    </tr>
+    <button>Click</button>
+</table>
